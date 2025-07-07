@@ -47,6 +47,9 @@ Lastly, to mitigate possible biases, we apply conterfactual data augmentation an
 
 *Female candidates were hired even more frequently than male candidates.*
 
+# Explainability
+We use SHAP to explain five predictions (3 Hire/ 2 No-Hire). Before and after applying conterfactual augmentation, the model appeared to focus on the strategy used to apply and the scores.
+
 # Mitigation Strategy
 - For every male resume, added a female version, and vice versa.
 - Double training set size

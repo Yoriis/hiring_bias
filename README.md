@@ -54,6 +54,9 @@ We use SHAP to explain five predictions (3 Hire/ 2 No-Hire). Before and after ap
 - For every male resume, added a female version, and vice versa.
 - Double training set size
 
+# Report
+Please find the report in the repo.
+
 # How to run
 - Clone repo
 - Run notebook.ipynb in Colab

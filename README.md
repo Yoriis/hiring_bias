@@ -30,6 +30,10 @@ Lastly, to mitigate possible biases, we apply conterfactual data augmentation an
 | Equal Opportunity Diff   | 0.136   |
 | Average Odds Difference  | 0.101   |
 
+![Hire Rate Gender Before](gender_before.png)
+
+*Female candidates were hired slightly more frequently than male candidates.*
+
 **After mitigation (via counterfactual data augmentation):**
 
 | Metric                   | Value   |
@@ -38,3 +42,17 @@ Lastly, to mitigate possible biases, we apply conterfactual data augmentation an
 | Demographic Parity Diff  | 0.095   |
 | Equal Opportunity Diff   | 0.211   |
 | Average Odds Difference  | 0.109   |
+
+![Hire Rate Gender After](gender_after.png)
+
+*Female candidates were hired even more frequently than male candidates.*
+
+# Mitigation Strategy
+- For every male resume, added a female version, and vice versa.
+- Double training set size
+
+# How to run
+- Clone repo
+- Run notebook.ipynb in Colab
+
+  
